@@ -1,0 +1,100 @@
+body{
+	font-family: arial;
+	background:  #d8b95a;
+}
+h3.sign-up-text{
+	font-size: 27px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.sign-up-form{
+	width:360px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+p.sign-up-sub{
+	margin-top: 9px;
+	margin-bottom: 0;
+	font-size: 14px;
+	color:  #a6a6a6;
+}
+.text-container{
+	margin-top: 30px;
+	background: #fff;
+	padding: 35px 30px 20px 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+
+
+.input-boxes{	
+	background: #fff;
+	padding: 30px 30px 50px 30px;
+	border-top: 1px solid #f2f2f2;	
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+input.first-name, input.last-name,input.email, input.password, input.conf-password{
+	background: #f2f2f2;
+	border-radius: 5px;
+}
+.first-name, .last-name{
+	width: 35%;
+	border: none;
+	padding: 12px;
+	margin-bottom: 15px;
+}
+.last-name{
+	float: right;
+}
+input.email, input.password, input.conf-password{
+	width: 92%;
+	border: none;
+	padding: 12px;
+	margin-bottom: 15px;
+}
+input.conf-password{
+	margin-bottom: 25px;
+}
+.conf-password-error, .password-error{
+	display: none;
+}
+
+.t-n-c{
+	font-size: 14px;
+	color: #808080;
+}
+.t-n-c a{
+	text-decoration: none;
+	color: #66b3ff;
+}
+input[type ="checkbox" i]{
+	background: #f2f2f2;
+}
+
+
+.sign-up-btn{
+	margin-top: 25px;
+	background: #D3AF41;
+	padding: 10px 40px;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #fff;
+
+
+}
+
+.login-prompt{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #fff;
+}
+.login-prompt a{
+	color: #fff;
+}
