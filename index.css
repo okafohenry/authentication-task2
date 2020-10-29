@@ -60,8 +60,17 @@ input.email, input.password, input.conf-password{
 input.conf-password{
 	margin-bottom: 25px;
 }
-.conf-password-error, .password-error{
+.name-error, .email-error,.conf-password-error, .password-error{
+	margin-top: 0;
+	font-size: 13px;
+	color: red;
 	display: none;
+}
+.conf-password-error{
+	margin-top: -10px;
+}
+input::focus{
+	border: none;
 }
 
 .t-n-c{
@@ -79,7 +88,6 @@ input[type ="checkbox" i]{
 
 .sign-up-btn{
 	margin-top: 25px;
-	background: #D3AF41;
 	padding: 10px 40px;
 	border: none;
 	border-radius: 5px;

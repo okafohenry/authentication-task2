@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
 	<title>Sign Up</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body>
+<body >
 	<section>
 		<div class="sign-up-form">
 			<div class="text-container">
@@ -12,27 +14,50 @@
 				<p class="sign-up-sub">Please fill in this form to create an account!</p>
 			</div>
 			<div class="input-boxes">
-				<input type="text" placeholder="First Name" class="first-name">
-				<input type="text" placeholder="Last Name" class="last-name">
+				<input type="text" 
+					placeholder="First Name" 
+					class="first-name" id="first-name">
+				<input type="text" 
+					placeholder="Last Name" 
+					class="last-name" id="last-name">
 				<br>
-				<input type="mail" placeholder="Email" class="email">
-				<br>
-				<input type="password" placeholder="Password" class="password">
-				<br>
-				<p class="password-error">Password should be 8 characters long
+				<p class="name-error" id="name-error">
+					Names must not include numbers
 				</p>
-				<input type="password" placeholder="Confirm Password" class="conf-password">
+				<input type="mail" 
+					placeholder="Email" 
+					class="email" id="email">
+				<br>
+				<p class="email-error" id="email-error">
+					Email is invalid
+				</p>
+				<input type="password" 
+					placeholder="Password" 
+					class="password" id="password">
+				<br>
+				<p class="password-error" id="password-error">
+					Password should be atleast 8 characters long
+				</p>
+				<input type="password" 
+					placeholder="Confirm Password" 
+					class="conf-password" id="conf-password">
 				<br>		
-				<p class="conf-password-error">Password doesn't match</p>
-				<input type="checkbox" class="checkbox" >
+				<p class="conf-password-error">Password does not match</p>
+				<input type="checkbox" class="checkbox" id="checkbox" >
 				<span class="t-n-c"> I accept the <a href="#">Terms of Use</a>  & <a href="#">Privacy Policy</a> <br>
 
-				<button class="sign-up-btn">Sign Up</button>
+				<input type="button" value="Sign Up" 
+					class="sign-up-btn" id="sign-up-btn"
+					onclick="handleClick()" />
 			</div>
 		</div>
 		<div class="login-prompt">
 			Already have an account? <a href="login.html">Login here</a>
 		</div>
 	</section>
+
+	<script src="script.js">
+
+	</script>
 </body>
 </html>
